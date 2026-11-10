@@ -3,7 +3,7 @@ services:
     name: mama-shopping-center-backend
     env: python
     region: frankfurt
-    plan: starter
+    plan: free
     buildCommand: "./build.sh"
     startCommand: "gunicorn config.wsgi:application --bind 0.0.0.0:$PORT"
     envVars:
@@ -29,4 +29,4 @@ databases:
     databaseName: mama_supermarket
     user: mama_admin
     region: frankfurt
-    plan: starter
+    plan: free
