@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Mama Shopping Center</string>
+    <string name="title_activity_main">Mama Shopping Center</string>
+    <string name="package_name">com.mamashoppingcenter.app</string>
+    <string name="custom_url_scheme">com.mamashoppingcenter.app</string>
+</resources>
